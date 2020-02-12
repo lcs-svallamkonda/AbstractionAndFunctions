@@ -34,6 +34,10 @@ func circumferenceOfCircle(radius: Double) -> Double {
     return Double.pi * radius * 2
 }
 
+//test this function
+circumferenceOfCircle(radius: 5)
+circumferenceOfCircle(radius: 2)
+circumferenceOfCircle(radius: 10)
 
 /*:
  [Previous: Writing Documentation](@previous) | Page 7
