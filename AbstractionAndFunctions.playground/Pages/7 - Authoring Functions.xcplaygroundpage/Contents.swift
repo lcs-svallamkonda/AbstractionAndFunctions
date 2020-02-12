@@ -90,6 +90,15 @@ func areaOfTrapezoid(lengthOfSide a: Double, lengthOfParallelSide b: Double, hei
 areaOfTrapezoid(lengthOfSide: 6, lengthOfParallelSide: 7, height: 8)
 areaOfTrapezoid(lengthOfSide: 5, lengthOfParallelSide: 2, height: 7)
 areaOfTrapezoid(lengthOfSide: 4, lengthOfParallelSide: 9, height: 5)
+
+
+
+//surface area of cylinder
+func cylinderSurfaceArea(radius r: Double, heigh h: Double) -> Double {
+    let baseArea = Double.pi * pow(r, 2.0)
+    let lateralSurfaceArea = 2 * Double.pi * r * h
+    return 2 * baseArea + lateralSurfaceArea
+}
 /*:
  [Previous: Writing Documentation](@previous) | Page 7
  */
