@@ -40,6 +40,7 @@ circumferenceOfCircle(radius: 2)
 circumferenceOfCircle(radius: 10)
 
 
+
 //perimeter of a parallelogram
 /// Finds perimeter of a parallelogram or rectangle
 /// - Parameters:
@@ -55,6 +56,8 @@ perimeterOfParallelogram(side: 5, anotherSide: 6)
 perimeterOfParallelogram(side: 1, anotherSide: 2)
 perimeterOfParallelogram(side: 34, anotherSide: 12)
 
+
+
 //area of triangle
 /// Finds area of atriangle
 /// - Parameters:
@@ -64,10 +67,18 @@ perimeterOfParallelogram(side: 34, anotherSide: 12)
 func areaOfTriangle(base b: Double, height h: Double) -> Double {
     return b * h / 2
 }
+
 //test this function
 areaOfTriangle(base: 2, height: 3)
 areaOfTriangle(base: 7, height: 2)
 areaOfTriangle(base: 57, height: 6)
+
+
+
+//area of a trapezoid
+func areaOfTrapezoid(lengthOfSide a: Double, lengthOfParallelSide b: Double, height h: Double) -> Double {
+    
+}
 /*:
  [Previous: Writing Documentation](@previous) | Page 7
  */
