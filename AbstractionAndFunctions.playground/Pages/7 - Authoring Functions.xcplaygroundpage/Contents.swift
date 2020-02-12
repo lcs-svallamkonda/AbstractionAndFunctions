@@ -41,9 +41,10 @@ circumferenceOfCircle(radius: 10)
 
 
 //perimeter of a parallelogram
-func perimeterOfParallelogram(b side: Double, c anotherSide: Double) -> Double {
-    
+func perimeterOfParallelogram(side b: Double, anotherSide c: Double) -> Double {
+    return 2 * (b + c)
 }
+
 /*:
  [Previous: Writing Documentation](@previous) | Page 7
  */
