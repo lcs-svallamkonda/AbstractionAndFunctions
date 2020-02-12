@@ -54,6 +54,11 @@ func perimeterOfParallelogram(side b: Double, anotherSide c: Double) -> Double {
 perimeterOfParallelogram(side: 5, anotherSide: 6)
 perimeterOfParallelogram(side: 1, anotherSide: 2)
 perimeterOfParallelogram(side: 34, anotherSide: 12)
+
+//area of triangle
+func areaOfTriangle(base b: Double, height h: Double) -> Double {
+    return b * h / 2
+}
 /*:
  [Previous: Writing Documentation](@previous) | Page 7
  */
