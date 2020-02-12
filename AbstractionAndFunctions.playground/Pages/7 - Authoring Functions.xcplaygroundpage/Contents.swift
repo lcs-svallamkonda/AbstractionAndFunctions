@@ -27,6 +27,9 @@ import Foundation
  */
 // Begin your work here...
 //perimeter of a circle
+/// Finds circumference of circle
+/// - Parameter radius: Radius of the circle
+/// - Returns: Circumference of the Circle
 func circumferenceOfCircle(radius: Double) -> Double {
     return Double.pi * radius * 2
 }
