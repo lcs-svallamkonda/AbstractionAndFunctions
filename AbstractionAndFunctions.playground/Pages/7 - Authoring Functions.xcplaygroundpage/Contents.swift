@@ -76,6 +76,12 @@ areaOfTriangle(base: 57, height: 6)
 
 
 //area of a trapezoid
+/// finds the area of a trapezoid
+/// - Parameters:
+///   - a: length of one of the parallel sides
+///   - b: length of the other parallel side
+///   - h: height of the parallelogram
+/// - Returns: area of the trapezoid
 func areaOfTrapezoid(lengthOfSide a: Double, lengthOfParallelSide b: Double, height h: Double) -> Double {
     return (a + b) * h / 2
 }
