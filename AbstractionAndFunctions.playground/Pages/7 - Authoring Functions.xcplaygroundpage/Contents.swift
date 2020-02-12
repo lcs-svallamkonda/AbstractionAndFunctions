@@ -50,6 +50,10 @@ func perimeterOfParallelogram(side b: Double, anotherSide c: Double) -> Double {
     return 2 * (b + c)
 }
 
+//test this function
+perimeterOfParallelogram(side: 5, anotherSide: 6)
+perimeterOfParallelogram(side: 1, anotherSide: 2)
+perimeterOfParallelogram(side: 34, anotherSide: 12)
 /*:
  [Previous: Writing Documentation](@previous) | Page 7
  */
