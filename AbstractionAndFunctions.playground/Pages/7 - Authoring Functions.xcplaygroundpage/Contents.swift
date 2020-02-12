@@ -56,6 +56,11 @@ perimeterOfParallelogram(side: 1, anotherSide: 2)
 perimeterOfParallelogram(side: 34, anotherSide: 12)
 
 //area of triangle
+/// Finds area of atriangle
+/// - Parameters:
+///   - b: base of the triangle
+///   - h: height of the triangle
+/// - Returns: area of the triangle
 func areaOfTriangle(base b: Double, height h: Double) -> Double {
     return b * h / 2
 }
