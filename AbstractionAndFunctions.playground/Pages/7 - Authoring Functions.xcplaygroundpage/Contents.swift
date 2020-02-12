@@ -77,7 +77,7 @@ areaOfTriangle(base: 57, height: 6)
 
 //area of a trapezoid
 func areaOfTrapezoid(lengthOfSide a: Double, lengthOfParallelSide b: Double, height h: Double) -> Double {
-    
+    return (a + b) * h / 2
 }
 /*:
  [Previous: Writing Documentation](@previous) | Page 7
