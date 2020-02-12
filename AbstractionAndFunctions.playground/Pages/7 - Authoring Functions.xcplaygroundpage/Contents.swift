@@ -26,7 +26,10 @@ import Foundation
  
  */
 // Begin your work here...
-
+//perimeter of a circle
+func circumferenceOfCircle(radius: Double) -> Double {
+    return Double.pi * radius * 2
+}
 
 
 /*:
