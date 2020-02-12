@@ -39,6 +39,11 @@ circumferenceOfCircle(radius: 5)
 circumferenceOfCircle(radius: 2)
 circumferenceOfCircle(radius: 10)
 
+
+//perimeter of a parallelogram
+func perimeterOfParallelogram(b side: Double, c anotherSide: Double) -> Double {
+    
+}
 /*:
  [Previous: Writing Documentation](@previous) | Page 7
  */
