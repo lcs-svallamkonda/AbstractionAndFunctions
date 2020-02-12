@@ -85,6 +85,11 @@ areaOfTriangle(base: 57, height: 6)
 func areaOfTrapezoid(lengthOfSide a: Double, lengthOfParallelSide b: Double, height h: Double) -> Double {
     return (a + b) * h / 2
 }
+
+//test this function
+areaOfTrapezoid(lengthOfSide: 6, lengthOfParallelSide: 7, height: 8)
+areaOfTrapezoid(lengthOfSide: 5, lengthOfParallelSide: 2, height: 7)
+areaOfTrapezoid(lengthOfSide: 4, lengthOfParallelSide: 9, height: 5)
 /*:
  [Previous: Writing Documentation](@previous) | Page 7
  */
