@@ -41,6 +41,11 @@ circumferenceOfCircle(radius: 10)
 
 
 //perimeter of a parallelogram
+/// Finds perimeter of a parallelogram or rectangle
+/// - Parameters:
+///   - b: length of one side of the parallelogram
+///   - c: length of the other side of the parallelogram
+/// - Returns: perimeter of the parallelogram
 func perimeterOfParallelogram(side b: Double, anotherSide c: Double) -> Double {
     return 2 * (b + c)
 }
