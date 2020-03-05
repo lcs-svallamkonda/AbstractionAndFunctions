@@ -186,18 +186,19 @@ cylinderSurfaceArea(radius: 1, height: -7)
 
 
 
-//MARK: surface area of triangular based prism
-func triangularPrismSurfaceArea(sideA a: Double, baseSide b: Double, sideC c: Double, height h: Double, length l: Double) -> Double? {
+//MARK: surface area of rectangular prism
+func rectangularPrismSurfaceArea(width w: Double, length l: Double, height h: Double) -> Double? {
     
     //Ensure we have reasonable values
-    guard a > 0, b > 0, c > 0, h > 0, l > 0 else {
+    guard w > 0, l > 0, h > 0 else {
         //We have bad input so return nil
         return nil
     }
     
-    return b * l + a * h + b * h + c * h
+    return 2 * ( w * h + l * w + l * h )
     
 }
+
 /*:
  [Previous: Writing Documentation](@previous) | Page 7
  */
