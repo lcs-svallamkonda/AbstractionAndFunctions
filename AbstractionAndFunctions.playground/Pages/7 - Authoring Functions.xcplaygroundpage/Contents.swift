@@ -199,6 +199,26 @@ func rectangularPrismSurfaceArea(width w: Double, length l: Double, height h: Do
     
 }
 
+//test this function
+
+//test #1 width: 6, length: 7, height: 8, result: 292
+rectangularPrismSurfaceArea(width: 6, length: 7, height: 8)
+
+//test #1 width: 6.4, length: 3.4, height: 5.3, result: 147.4
+rectangularPrismSurfaceArea(width: 6.4, length: 3.4, height: 5.3)
+
+//test #1 width: -6, length: 7, height: 8, result: nil
+rectangularPrismSurfaceArea(width: -6, length: 7, height: 8)
+
+//test #1 width: 6, length: -7, height: 8, result: nil
+rectangularPrismSurfaceArea(width: 6, length: -7, height: 8)
+
+//test #1 width: 6, length: 7, height: -8, result: nil
+rectangularPrismSurfaceArea(width: 6, length: 7, height: -8)
+
+
+
+
 /*:
  [Previous: Writing Documentation](@previous) | Page 7
  */
