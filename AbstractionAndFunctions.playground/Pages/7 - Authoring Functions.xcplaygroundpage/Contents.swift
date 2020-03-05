@@ -218,6 +218,19 @@ rectangularPrismSurfaceArea(width: 6, length: 7, height: -8)
 
 
 
+//MARK: volume of sphere
+func sphereVolume(radius r: Double) -> Double? {
+    
+    //Ensure we have reasonable values
+    guard r > 0 else {
+        //We have bad input so return nil
+        return nil
+    }
+    
+    return 4 / 3 * Double.pi * pow(r, 3)
+
+}
+
 
 /*:
  [Previous: Writing Documentation](@previous) | Page 7
