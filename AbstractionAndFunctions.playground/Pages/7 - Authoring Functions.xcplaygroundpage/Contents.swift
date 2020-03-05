@@ -204,16 +204,16 @@ func rectangularPrismSurfaceArea(width w: Double, length l: Double, height h: Do
 //test #1 width: 6, length: 7, height: 8, result: 292
 rectangularPrismSurfaceArea(width: 6, length: 7, height: 8)
 
-//test #1 width: 6.4, length: 3.4, height: 5.3, result: 147.4
+//test #2 width: 6.4, length: 3.4, height: 5.3, result: 147.4
 rectangularPrismSurfaceArea(width: 6.4, length: 3.4, height: 5.3)
 
-//test #1 width: -6, length: 7, height: 8, result: nil
+//test #3 width: -6, length: 7, height: 8, result: nil
 rectangularPrismSurfaceArea(width: -6, length: 7, height: 8)
 
-//test #1 width: 6, length: -7, height: 8, result: nil
+//test #4 width: 6, length: -7, height: 8, result: nil
 rectangularPrismSurfaceArea(width: 6, length: -7, height: 8)
 
-//test #1 width: 6, length: 7, height: -8, result: nil
+//test #5 width: 6, length: 7, height: -8, result: nil
 rectangularPrismSurfaceArea(width: 6, length: 7, height: -8)
 
 
@@ -231,6 +231,16 @@ func sphereVolume(radius r: Double) -> Double? {
 
 }
 
+//test this function
+
+//test #1 radius: 5 result: 523.6
+sphereVolume(radius: 5)
+
+//test #2 radius 4.7, result: 434.89
+sphereVolume(radius: 4.7)
+
+//test #3 radius -3, result: nil
+sphereVolume(radius: -3)
 
 /*:
  [Previous: Writing Documentation](@previous) | Page 7
